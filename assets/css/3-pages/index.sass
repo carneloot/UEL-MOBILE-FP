@@ -1,0 +1,59 @@
+#index
+  .container
+    margin: 0 auto 20px
+    height: 100%
+
+    @media (min-width: 760px)
+      max-width: 760px
+    @media (min-width: 400px) and (max-width: 759px)
+      max-width: 400px
+    @media (max-width: 399px)
+      max-width: 310px
+
+    p
+      text-align: center
+
+  .centros
+    display: flex
+    width: 100%
+    flex-direction: row
+    flex-wrap: wrap
+    padding: 0
+    list-style: none
+
+    .centro-unit
+      box-sizing: border-box
+      display: block
+      background-color: $accent
+
+      margin: 1px
+      padding: 10px 30px
+      border-radius: 5px
+      color: #ffffff
+      text-decoration: none
+      text-align: center
+      min-height: 50px
+      vertical-align: center
+      
+      @media (min-width: 760px)
+        width: 33%
+
+        &:nth-child(3n + 1)
+          margin-left: 0
+
+        &:nth-child(3n)
+          margin-right: 0
+
+      @media (max-width: 759px)
+        width: 49.6%
+
+        &:nth-child(2n + 1)
+          margin-left: 0
+
+        &:nth-child(2n)
+          margin-right: 0
+
+      transition: 100ms all ease-in-out
+
+      &:hover
+        color: darken($accent, 10%)

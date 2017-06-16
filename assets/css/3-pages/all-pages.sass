@@ -1,0 +1,50 @@
+footer
+  background-color: $accent
+  color: #ffffff
+
+  .foot
+    margin-left: 10px
+    margin-right: 10px
+    padding: 20px 0
+    text-align: center
+
+    .easter-egg
+      color: lighten($accent, 1%)
+
+.nav-menu
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: center
+  align-content: center
+
+  background-color: $accent
+  margin-bottom: 20px
+
+  .logo
+    margin: 10px 15px
+    height: 75px
+    width: 75px
+
+  ul
+    list-style: none
+    margin: 0
+    padding: 0
+
+    &:after
+      content: ''
+      display: block
+      clear: both
+
+    li
+      float: left
+      padding: 20px
+
+      a
+        color: #ffffff
+        text-decoration: none
+        padding: 10px
+        transition: 200ms all
+
+        &:hover
+          color: darken($accent, 10%)

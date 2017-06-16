@@ -1,0 +1,206 @@
+{
+	"locais": {
+		"cce": {
+			"lat": -23.3265729,
+			"long": -51.2027697,
+			"titulo": "Centro de Ciencias Exatas (CCE)",
+			"cursos": [
+				"Ciência da Computação",
+				"Estatística",
+				"Física",
+				"Geografia",
+				"Matemática",
+				"Quimica"
+			],
+			"descricao": "beh",
+			"imagens": [
+				"cce/cce_01.jpg",
+				"cce/cce_02.jpg",
+				"cce/cce_03.jpg",
+				"cce/cce_04.jpg",
+				"cce/cce_05.jpg",
+				"cce/cce_06.jpg"
+			]
+		},
+		"cesa": {
+			"lat": -23.3266514,
+			"long": -51.204679,
+			"titulo": "Centro de Estudos Sociais Aplicados (CESA)",
+			"cursos": [
+				"Serviço Social",
+				"Direito",
+				"Relações Públicas",
+				"Economia"
+			],
+			"descricao": "beh",
+			"imagens": [
+				"cce_01.jpg",
+				"cce_02.jpg"
+			]
+		},
+		"ceca": {
+			"lat": -23.325181,
+			"long": -51.2059413,
+			"titulo": "Centro de Ciencias Exatas (CCE)",
+			"cursos": [
+				"Design Grafico",
+				"Design de Moda",
+				"Artes Visuais",
+				"Artes Cenicas"
+			],
+			"descricao": "beh",
+			"imagens": [
+				"cce_01.jpg",
+				"cce_02.jpg"
+			]
+		},
+		"cefe": {
+			"lat": -23.3237317,
+			"long": -51.2055087,
+			"titulo": "Centro de Ciencias Exatas (CCE)",
+			"cursos": [
+				"Educação Física"
+			],
+			"descricao": "beh",
+			"imagens": [
+				"cce_01.jpg",
+				"cce_02.jpg"
+			]
+		},
+		"cch": {
+			"lat": -23.3250498,
+			"long": -51.2044276,
+			"titulo": "Centro de Ciencias Exatas (CCE)",
+			"cursos": [
+				"Letras",
+				"Ciencias Sociais",
+				"Filosofia",
+				"Historia",
+				""
+			],
+			"descricao": "beh",
+			"imagens": [
+				"cce_01.jpg",
+				"cce_02.jpg"
+			]
+		},
+		"cca": {
+			"lat": -23.3282916,
+			"long": -51.2020031,
+			"titulo": "Centro de Ciencias Exatas (CCE)",
+			"cursos": [
+				"Agronomia",
+				"Zootecnia",
+				"Medicina Veterinaria"
+			],
+			"descricao": "beh",
+			"imagens": [
+				"cce_01.jpg",
+				"cce_02.jpg"
+			]
+		},
+		"ccb": {
+			"lat": -23.3254072,
+			"long": -51.1975691,
+			"titulo": "Centro de Ciencias Exatas (CCE)",
+			"cursos": [
+				"Ciências Biologicas",
+				"Enfermagem",
+				"Psicologia",
+				"Farmacia",
+				"Medicina",
+				"Biomedicina"
+			],
+			"descricao": "beh",
+			"imagens": [
+				"cce_01.jpg",
+				"cce_02.jpg"
+			]
+		},
+		"ctu": {
+			"lat": -23.3266557,
+			"long": -51.1983383,
+			"titulo": "Centro de Ciencias Exatas (CCE)",
+			"cursos": [
+				"Arquitetura",
+				"Engenharia Eletrica",
+				"Engenharia Civil"
+			],
+			"descricao": "beh",
+			"imagens": [
+				"cce_01.jpg",
+				"cce_02.jpg"
+			]
+		},
+		"caixa": {
+			"lat": -23.3250995,
+			"long": -51.2001555,
+			"titulo": "Centro de Ciencias Exatas (CCE)",
+			"descricao": "beh",
+			"imagens": [
+				"cce_01.jpg",
+				"cce_02.jpg"
+			]
+		},
+		"itau": {
+			"lat": -23.3250916,
+			"long": -51.1998782,
+			"titulo": "Centro de Ciencias Exatas (CCE)",
+			"descricao": "beh",
+			"imagens": [
+				"cce_01.jpg",
+				"cce_02.jpg"
+			]
+		},
+		"hc": {
+			"lat": -23.3242257,
+			"long": -51.1948409,
+			"titulo": "Centro de Ciencias Exatas (CCE)",
+			"descricao": "beh",
+			"imagens": [
+				"cce_01.jpg",
+				"cce_02.jpg"
+			]
+		},
+		"ru": {
+			"lat": -23.3253507,
+			"long": -51.2017474,
+			"titulo": "Centro de Ciencias Exatas (CCE)",
+			"descricao": "beh",
+			"imagens": [
+				"cce_01.jpg",
+				"cce_02.jpg"
+			]
+		},
+		"pinguin-cesa": {
+			"lat": -23.3260144,
+			"long": -51.2055865,
+			"titulo": "Centro de Ciencias Exatas (CCE)",
+			"descricao": "beh",
+			"imagens": [
+				"cce_01.jpg",
+				"cce_02.jpg"
+			]
+		},
+		"cantina-ccb": {
+			"lat": -23.3264962,
+			"long": -51.1960133,
+			"titulo": "Centro de Ciencias Exatas (CCE)",
+			"descricao": "beh",
+			"imagens": [
+				"cce_01.jpg",
+				"cce_02.jpg"
+			]
+		},
+		"cantina-ctu": {
+			"lat": -23.3262665,
+			"long": -51.1997533,
+			"titulo": "Centro de Ciencias Exatas (CCE)",
+			"descricao": "beh",
+			"imagens": [
+				"cce_01.jpg",
+				"cce_02.jpg"
+			]
+		}
+	}
+}
