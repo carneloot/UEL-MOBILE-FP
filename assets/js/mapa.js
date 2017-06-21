@@ -47,22 +47,26 @@ function initMap() {
 }
 
 window.onload = function () {
-  $.getJSON("/assets/js/minibanco.json", function (json) {
+  $.getJSON("./../assets/js/minibanco.json", function (json) {
     var params = getUrlParams(),
       local;
     var wtgMenu = document.getElementById("wtgMenu");
     wtgMenu.innerHTML = "";
 
     // Preencher o menu de acordo com o JSON
-    for (let local in json.locais) {
-      if (local != params.local) {
-        let link = window.location.origin + "/mapa/" + window.location.search.split(/&/)[0] + "&dest=" + local;
-        wtgMenu.innerHTML += `<li class="wtg-link"><a href="${link}">${local.toUpperCase().replace('-', ' ')}</a></li>`;
+    if (params.local != null) {
+      for (let local in json.locais) {
+        if (local != params.local) {
+          let link = "./../mapa/?local=" + params.local + "&dest=" + local;
+          wtgMenu.innerHTML += `<li class="wtg-link"><a href="${link}">${local.toUpperCase().replace(/-/g, ' ')}</a></li>`;
+        }
       }
     }
 
     // Se houver um local
-    if (params.local != null) {
+    if (params.local == null) {
+      window.location.href = "./../";
+    } else {
       let localInfo = json.locais[params.local];
 
       local = {
@@ -75,8 +79,6 @@ window.onload = function () {
       let divDescricao = document.getElementById("descricao");
       let divCursos = document.getElementById("cursos");
       let divImagens = document.getElementById("imagens");
-
-
 
       // Caso o destino seja nulo ou local = destino
       if (params.dest == null || params.dest == params.local) {
@@ -91,7 +93,7 @@ window.onload = function () {
         });
 
       } else {
-        // localInfo = json.locais[params.dest];
+        localInfo = json.locais[params.dest];
         var dest = {
           lat: json.locais[params.dest].lat,
           lng: json.locais[params.dest].long,
@@ -100,7 +102,7 @@ window.onload = function () {
         directionsService.route({
           origin: local,
           destination: dest,
-          travelMode: 'WALKING'
+          travelMode: google.maps.TravelMode['WALKING']
         }, function (response, status) {
           if (status === 'OK')
             directionsDisplay.setDirections(response);
@@ -126,7 +128,7 @@ window.onload = function () {
       divImagens.innerHTML = "";
       for (let key in localInfo.imagens) {
         let imagem = localInfo.imagens[key];
-        divImagens.innerHTML += `<img src="/assets/images/${imagem}" alt="${imagem.split(/\./)[0]}">`;
+        divImagens.innerHTML += `<img src="./../assets/images/${imagem}" alt="${imagem.split(/\./)[0]}">`;
       }
 
     }

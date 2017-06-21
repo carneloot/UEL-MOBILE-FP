@@ -23,7 +23,12 @@
 
     .centro-unit
       box-sizing: border-box
-      display: block
+      display: flex
+      flex-wrap: wrap
+      flex-direction: row
+      justify-content: center
+      align-items: center
+      align-content: center
       background-color: $accent
 
       margin: 1px
@@ -31,9 +36,8 @@
       border-radius: 5px
       color: #ffffff
       text-decoration: none
-      text-align: center
       min-height: 50px
-      vertical-align: center
+      text-align: center
       
       @media (min-width: 760px)
         width: 33%
