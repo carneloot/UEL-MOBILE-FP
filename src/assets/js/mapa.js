@@ -47,7 +47,7 @@ function initMap() {
 }
 
 window.onload = function () {
-  $.getJSON("./../assets/js/minibanco.json", function (json) {
+  $.getJSON(`./../assets/js/minibanco.json?v=${Math.floor(Math.random() * 1000 + 1)}`, function (json) {
     var params = getUrlParams(),
       local;
     var wtgMenu = document.getElementById("wtgMenu");

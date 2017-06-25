@@ -3,7 +3,7 @@ $accent: #006699
 
 body
   font-family: 'Noto Sans', sans-serif
-  color: darken($accent, 25%)
+  color: #292f33
 
 .container
   margin: 10px
@@ -11,3 +11,10 @@ body
 img
   max-width: 100%
   border-radius: 5px
+
+a
+  text-decoration: none
+  color: $accent
+
+  &:hover
+    color: lighten($accent, 20%)
