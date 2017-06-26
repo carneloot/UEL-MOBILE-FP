@@ -1,17 +1,13 @@
 const gulp = require('gulp'),
-  sass = require('gulp-ruby-sass'),
-  pug = require('gulp-pug'),
-  prefix = require('gulp-autoprefixer'),
-  versionNumber = require('gulp-version-number'),
-  useref = require('gulp-useref');
+  $ = require('gulp-load-plugins')();
 
 gulp.task('sass', function () {
-  sass('src/assets/css/main.sass', {
+  $.rubySass('src/assets/css/main.sass', {
       style: 'compressed',
       'default-encoding': 'utf-8'
     })
-    .on('error', sass.logError)
-    .pipe(prefix('last 15 versions'))
+    .on('error', $.rubySass.logError)
+    .pipe($.autoprefixer('last 10 versions'))
     .pipe(gulp.dest('dist/assets/css/'));
 });
 
@@ -24,19 +20,20 @@ gulp.task('pug', function () {
     }
   }
   gulp.src(['src/pages/**/*.pug', '!src/pages/**/_*.pug'])
-    .pipe(pug({
+    .pipe($.pug({
       pretty: true
     }))
-    .pipe(useref())
-    .pipe(versionNumber(vNumConfig))
-    .pipe(gulp.dest('dist/'))
-
-  gulp.src(['src/assets/js/*.json'])
-    .pipe(gulp.dest('dist/assets/js'));
+    .pipe($.versionNumber(vNumConfig))
+    .pipe(gulp.dest('dist/'));
 
   gulp.src(['src/*.+(png|xml|ico|json|svg)'])
     .pipe(gulp.dest('dist/'));
 
+});
+
+gulp.task('js', function () {
+  return gulp.src(['src/assets/js/*.+(js|json)'])
+    .pipe(gulp.dest('dist/assets/js/'));
 });
 
 gulp.task('images', function () {
@@ -50,4 +47,4 @@ gulp.task('watch', function () {
   gulp.watch(['src/assets/js/**/*'], ['js']);
 })
 
-gulp.task('default', ['pug', 'sass', 'images', 'watch']);
+gulp.task('default', ['pug', 'sass', 'js', 'images', 'watch']);

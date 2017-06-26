@@ -30,7 +30,7 @@ html(lang="pt-BR")#mapa
         h3 Imagens do local:
         #imagens
     
-    include ../_includes/_footer.pug
+    include ../_includes/_footer
 
     aside.menu
       .menu-container
@@ -41,9 +41,7 @@ html(lang="pt-BR")#mapa
             .where-to-go
               ul#wtgMenu
     
-    //build:js ./../assets/js/mapa.min.js
-    script(src="./../../assets/js/jquery-3.2.1.min.js")
-    script(src="./../../assets/js/menu.js")
-    script(src="./../../assets/js/mapa.js")
-    //endbuild
+    script(src="./../assets/js/jquery-3.2.1.min.js")
+    script(src="./../assets/js/menu.js")
+    script(src="./../assets/js/mapa.js")
     script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhqPdGQZ74NQfq3iIO7Xb4PW2C91-3MZQ&callback=initMap")
