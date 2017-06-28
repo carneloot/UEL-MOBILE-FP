@@ -123,14 +123,19 @@ window.onload = function () {
         cursos += "</ul>";
       }
 
-      divCursos.innerHTML = cursos;
+      if (localInfo.imagens.length == 0) {
+        let titImagem = document.querySelector('h3');
+        titImagem.style.display = 'none';
+        divDescricao.style.marginBottom = '20px'
+      } else {
+        divCursos.innerHTML = cursos;
 
-      divImagens.innerHTML = "";
-      for (let key in localInfo.imagens) {
-        let imagem = localInfo.imagens[key];
-        divImagens.innerHTML += `<img src="./../assets/images/${imagem}" alt="${imagem.split(/\./)[0]}">`;
+        divImagens.innerHTML = "";
+        for (let key in localInfo.imagens) {
+          let imagem = localInfo.imagens[key];
+          divImagens.innerHTML += `<img src="./../assets/images/${imagem}" alt="${imagem.split(/\./)[0]}">`;
+        }
       }
-
     }
   });
 }
