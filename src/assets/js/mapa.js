@@ -122,6 +122,7 @@ window.onload = function () {
           cursos += `<li>${localInfo.cursos[key]}</li>`;
         cursos += "</ul>";
       }
+<<<<<<< HEAD
       divCursos.innerHTML = cursos;
 
       if (localInfo.imagens.length == 0) {
@@ -129,6 +130,16 @@ window.onload = function () {
         titImagem.style.display = 'none';
         divDescricao.style.marginBottom = '20px'
       } else {
+=======
+
+      if (localInfo.imagens.length == 0) {
+        let titImagem = document.querySelector('h3');
+        titImagem.style.display = 'none';
+        divDescricao.style.marginBottom = '20px'
+      } else {
+        divCursos.innerHTML = cursos;
+
+>>>>>>> 62369beae76fcef5985ff6682d229acd555a2b91
         divImagens.innerHTML = "";
         for (let key in localInfo.imagens) {
           let imagem = localInfo.imagens[key];
