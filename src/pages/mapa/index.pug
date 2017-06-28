@@ -17,7 +17,7 @@ html(lang="pt-BR")#mapa
   body
     header
       nav.nav-menu
-        a(href="./"): include ../_includes/logo-ramo.svg
+        a(href="./../"): include ../_includes/logo-ramo.svg
         #btnMenu.btn-menu: include ../_includes/menu.svg
 
     .container
@@ -45,3 +45,4 @@ html(lang="pt-BR")#mapa
     script(src="./../assets/js/menu.js")
     script(src="./../assets/js/mapa.js")
     script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhqPdGQZ74NQfq3iIO7Xb4PW2C91-3MZQ&callback=initMap")
+    include ../_includes/_analytics.html

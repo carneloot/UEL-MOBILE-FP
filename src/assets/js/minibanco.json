@@ -167,7 +167,7 @@
 			"lat": -23.3253507,
 			"long": -51.2017474,
 			"titulo": "Restaurante Universitário",
-			"descricao": "<p>Todos os estudantes e funcionários da UEL podem se alimentar no RU, tanto no almoço quanto na janta. O cardápio muda todo dia e todo domingo o <a href='http://www.uel.br/ru/pages/cardapio.php' target='_blank'>site da UEL</a> é atualizado com o menu semanal.</p>",
+			"descricao": "<p>Todos os estudantes e funcionários da UEL podem se alimentar no RU, tanto no almoço quanto na janta. O cardápio muda todo dia e todo domingo o <a href='http://www.uel.br/ru/pages/cardapio.php' target='_blank'>site da UEL</a> é atualizado com o menu semanal.</p><h3 style='text-align: center;'>Atenção: O RU não será aberto ao público visitante da Feira de Profissões.</h3>",
 			"imagens": [
 				"ru_01.jpg",
 				"ru_02.jpg"

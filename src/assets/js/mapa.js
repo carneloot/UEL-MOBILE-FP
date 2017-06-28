@@ -122,15 +122,19 @@ window.onload = function () {
           cursos += `<li>${localInfo.cursos[key]}</li>`;
         cursos += "</ul>";
       }
-
       divCursos.innerHTML = cursos;
 
-      divImagens.innerHTML = "";
-      for (let key in localInfo.imagens) {
-        let imagem = localInfo.imagens[key];
-        divImagens.innerHTML += `<img src="./../assets/images/${imagem}" alt="${imagem.split(/\./)[0]}">`;
+      if (localInfo.imagens.length == 0) {
+        let titImagem = document.querySelector('h3');
+        titImagem.style.display = 'none';
+        divDescricao.style.marginBottom = '20px'
+      } else {
+        divImagens.innerHTML = "";
+        for (let key in localInfo.imagens) {
+          let imagem = localInfo.imagens[key];
+          divImagens.innerHTML += `<img src="./../assets/images/${imagem}" alt="${imagem.split(/\./)[0]}">`;
+        }
       }
-
     }
   });
 }
