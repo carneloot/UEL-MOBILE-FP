@@ -86,3 +86,5 @@ typings/
 dist/
 
 images/
+
+.vscode/

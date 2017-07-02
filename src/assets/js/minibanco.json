@@ -2,7 +2,7 @@
 	"locais": {
 		"cce": {
 			"lat": -23.326635,
-			"long": -51.202393,
+			"lng": -51.202393,
 			"titulo": "Centro de Ciencias Exatas (CCE)",
 			"cursos": [
 				"Ciência da Computação",
@@ -22,7 +22,7 @@
 		},
 		"cesa": {
 			"lat": -23.3266514,
-			"long": -51.204679,
+			"lng": -51.204679,
 			"titulo": "Centro de Estudos Sociais Aplicados (CESA)",
 			"cursos": [
 				"Administração",
@@ -40,7 +40,7 @@
 		},
 		"ceca": {
 			"lat": -23.325181,
-			"long": -51.2059413,
+			"lng": -51.2059413,
 			"titulo": "Centro de Educação, Comunicação e Artes (CECA)",
 			"cursos": [
 				"Design Grafico",
@@ -62,7 +62,7 @@
 		},
 		"cefe-e-ccs": {
 			"lat": -23.3237317,
-			"long": -51.2055087,
+			"lng": -51.2055087,
 			"titulo": "Centro de Educação Fisica e Esporte (CEFE) e Centro de Ciência da Saúde",
 			"cursos": [
 				"Educação Física",
@@ -81,7 +81,7 @@
 		},
 		"clch": {
 			"lat": -23.3250498,
-			"long": -51.2044276,
+			"lng": -51.2044276,
 			"titulo": "Centro de Letras e Ciências Humanas (CLCH)",
 			"cursos": [
 				"Letras (Português, Ingles, Espanhol e Francês)",
@@ -99,7 +99,7 @@
 		},
 		"cca": {
 			"lat": -23.3282916,
-			"long": -51.2020031,
+			"lng": -51.2020031,
 			"titulo": "Centro de Ciencias Agrárias (CCA)",
 			"cursos": [
 				"Agronomia",
@@ -113,7 +113,7 @@
 		},
 		"ccb": {
 			"lat": -23.3254072,
-			"long": -51.1975691,
+			"lng": -51.1975691,
 			"titulo": "Centro de Ciencias Biológicas (CCB)",
 			"cursos": [
 				"Ciências Biologicas",
@@ -133,7 +133,7 @@
 		},
 		"ctu": {
 			"lat": -23.3266557,
-			"long": -51.1983383,
+			"lng": -51.1983383,
 			"titulo": "Centro de Tecnologia e Urbanismo (CTU)",
 			"cursos": [
 				"Arquitetura e Urbanismo",
@@ -148,7 +148,7 @@
 		},
 		"bancos": {
 			"lat": -23.3250916,
-			"long": -51.1998782,
+			"lng": -51.1998782,
 			"titulo": "Bancos",
 			"descricao": "<p>Aqui ficam os bancos da UEL. No momento, os únicos disponíveis são Caixa e Itaú.</p>",
 			"imagens": [
@@ -158,14 +158,16 @@
 		},
 		"hc": {
 			"lat": -23.3242257,
-			"long": -51.1948409,
+			"lng": -51.1948409,
 			"titulo": "Hospital das Clinicas",
 			"descricao": "<p>O Ambulatório de Especialidades (AEHU) está vinculado ao Hospital Universitário (HU) e destina-se ao atendimento ambulatorial dos pacientes. Para isto, conta com equipes de  profissionais das áreas de Medicina, Enfermagem, Nutrição, Serviço Social, Psicologia, Farmácia e Bioquímica e Fisioterapia.</p>",
-			"imagens": []
+			"imagens": [
+				"hc_01.jpg"
+			]
 		},
 		"ru": {
 			"lat": -23.3253507,
-			"long": -51.2017474,
+			"lng": -51.2017474,
 			"titulo": "Restaurante Universitário",
 			"descricao": "<p>Todos os estudantes e funcionários da UEL podem se alimentar no RU, tanto no almoço quanto na janta. O cardápio muda todo dia e todo domingo o <a href='http://www.uel.br/ru/pages/cardapio.php' target='_blank'>site da UEL</a> é atualizado com o menu semanal.</p><h3 style='text-align: center;'>Atenção: O RU não será aberto ao público visitante da Feira de Profissões.</h3>",
 			"imagens": [
@@ -175,7 +177,7 @@
 		},
 		"pinguin-cesa": {
 			"lat": -23.3260144,
-			"long": -51.2055865,
+			"lng": -51.2055865,
 			"titulo": "Restaurante e Lanchonete Pinguim",
 			"descricao": "<p>Dentro da Universidade, temos vários quiósques que vendem lanches e salgados para a comunidade universitária. Um desses locais é o Pinguim do CESA. É um ótimo local alternativo para o almoço ou para o cafézinho, onde você pode se reunir com os amigos e jogar conversa fora.</p>",
 			"imagens": [
@@ -185,7 +187,7 @@
 		},
 		"cantina-ccb": {
 			"lat": -23.3264962,
-			"long": -51.1960133,
+			"lng": -51.1960133,
 			"titulo": "Cantina próxima ao CCB",
 			"descricao": "<p>Dentro da Universidade, temos vários quiósques que vendem lanches e salgados para a comunidade universitária. Um desses locais é a Cantina do CCB. É um ótimo local alternativo para o almoço ou para o cafézinho, onde você pode se reunir com os amigos e jogar conversa fora.</p>",
 			"imagens": [
@@ -196,12 +198,49 @@
 		},
 		"papo-cabeca": {
 			"lat": -23.3254383,
-			"long": -51.1936678,
+			"lng": -51.1936678,
 			"titulo": "Restaurante Papo Cabeça",
 			"descricao": "<p>Além do RU e dos quiósques no calçadão, também é uma opção o Papo Cabeça. O Papo Cabeça é um restaurante, bar e café roastery movimentada em frente a UEL. Com fachada envidraçada em dois lados, com vista para o Campus.</p>",
 			"imagens": [
 				"papo_01.jpg"
 			]
+		},
+		"pde": {
+			"lat": -23.3256169,
+			"lng": -51.2090081,
+			"titulo": "Programa de Desenvolvimento Estudantil (PDE)",
+			"descricao": "<p>Além do RU e dos quiósques no calçadão, também é uma opção o Papo Cabeça. O Papo Cabeça é um restaurante, bar e café roastery movimentada em frente a UEL. Com fachada envidraçada em dois lados, com vista para o Campus.</p>",
+			"imagens": [
+				"papo_01.jpg"
+			],
+			"salas": {
+				"zoom": 20,
+				"center": {
+					"lat": -23.3257349,
+					"lng": -51.208942
+				},
+				"1": {
+					"pos": {
+						"lat": -23.325728,
+						"lng": -51.208805
+					},
+					"info": "Salão Principal"
+				},
+				"2": {
+					"pos": {
+						"lat": -23.325721,
+						"lng": -51.208978
+					},
+					"info": "Hall de Entrada"
+				},
+				"3": {
+					"pos": {
+						"lat": -23.325716,
+						"lng": -51.209147
+					},
+					"info": "Anfiteatro"
+				}
+			}
 		}
 	}
 }

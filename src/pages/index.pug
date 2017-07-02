@@ -4,7 +4,7 @@ html(lang="pt-BR")#index
     meta(charset="UTF-8")
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible" content="ie=edge")
-    link(rel="stylesheet" href="./assets/css/main.css")
+    link(rel="stylesheet" href="./assets/css/main.css?v=#{VERSION_REPLACE}#")
     title Feira de Profissões - IEEE-UEL
 
     link(rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png")
@@ -17,14 +17,15 @@ html(lang="pt-BR")#index
   body
     header
       nav.nav-menu
-        a(href="./"): include _includes/logo-ramo.svg
+        a(href="./").logo: include _includes/logo-ramo-texto.svg
     
     .container
-      p Esses são os locais da UEL com seus respectivos cursos. Clique em um deles para entrar na página do centro.
+      p Esses são os locais da UEL. Clique em um deles para entrar na página do local.
       .centros
+        //- a.centro-unit.auto(onclick="buscarAuto()"): <span>Buscar Automaticamente</span>
     
     include _includes/_footer
 
-    script(src="./assets/js/jquery-3.2.1.min.js")
-    script(src="./assets/js/index.js")
-    include _includes/_analytics.html
+    script(src="./assets/js/jquery-3.2.1.min.js?v=#{VERSION_REPLACE}#")
+    script(src="./assets/js/index.js?v=#{VERSION_REPLACE}#")
+    //- include _includes/_analytics.html

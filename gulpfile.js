@@ -14,10 +14,9 @@ gulp.task('sass', function () {
 gulp.task('pug', function () {
   var vNumConfig = {
     'value': '%MDS%',
-    'append': {
-      'key': 'v',
-      'to': ['css', 'js']
-    }
+    'replaces': [
+      /#{VERSION_REPLACE}#/g
+    ]
   }
   gulp.src(['src/pages/**/*.pug', '!src/pages/**/_*.pug'])
     .pipe($.pug({
@@ -32,7 +31,18 @@ gulp.task('pug', function () {
 });
 
 gulp.task('js', function () {
-  return gulp.src(['src/assets/js/*.+(js|json)'])
+  gulp.src(['src/assets/js/*.js'])
+    .pipe($.minify({
+      ext: {
+        src: '.js',
+        min: '.js'
+      },
+      noSource: true,
+      ignoreFiles: ['.min.js']
+    }))
+    .pipe(gulp.dest('dist/assets/js/'));
+  gulp.src(['src/assets/js/*.json'])
+    .pipe($.jsonMinify())
     .pipe(gulp.dest('dist/assets/js/'));
 });
 
@@ -43,7 +53,7 @@ gulp.task('images', function () {
 
 gulp.task('watch', function () {
   gulp.watch(['src/assets/css/**/*'], ['sass']);
-  gulp.watch(['src/pages/**/*.pug'], ['pug']);
+  gulp.watch(['src/pages/**/*'], ['pug']);
   gulp.watch(['src/assets/js/**/*'], ['js']);
 })
 

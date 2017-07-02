@@ -1,4 +1,15 @@
 #mapa
+  nav
+    position: fixed
+    top: 0px
+    right: 0px
+    left: 0px
+    z-index: 2
+    margin: 0
+
+  header 
+    margin-bottom: 110px
+
   body
     background-color: white
 
@@ -24,3 +35,47 @@
   #descricao
     h4
       margin: 5px 0 10px
+  
+  .conteudo
+    position: relative
+  
+  .btn-salas
+    box-sizing: border-box
+    position: absolute
+    opacity: 0
+    top: 15px
+    right: 15px
+    z-index: 1
+    min-height: 48px
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    align-content: center
+
+    color: #ffffff
+    padding: 10px 15px
+    background-color: $accent
+    border: none
+    outline: none
+    border-radius: 5px
+    cursor: pointer
+    transition: 50ms all ease-in-out
+    transition: 500ms opacity ease-in-out
+    text-align: center
+
+    &:hover
+      background-color: darken($accent, 5%)
+
+    &:active
+      background-color: $accent
+    
+    &.ativo
+      $inativo: #C0392B
+      background-color: $inativo
+
+      &:hover
+        background-color: darken($inativo, 5%)
+
+      &:active
+        background-color: $inativo
