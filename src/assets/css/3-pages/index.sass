@@ -13,56 +13,69 @@
     p
       text-align: center
 
-  .centros
+  .locais
     display: flex
     width: 100%
-    flex-direction: row
+    flex-direction: column
     flex-wrap: wrap
     padding: 0
-    list-style: none
 
-    .centro-unit
-      box-sizing: border-box
+
+    .cat-unit
       display: flex
-      flex-wrap: wrap
       flex-direction: row
-      justify-content: center
-      align-items: center
-      align-content: center
-      background-color: $accent
+      flex-wrap: wrap
+      align-items: flex-start
+      margin: 5px 0 
 
-      margin: 1px
-      padding: 10px 30px
-      border-radius: 5px
-      color: #ffffff
-      text-decoration: none
-      min-height: 50px
-      text-align: center
-      width: 100%
-      cursor: pointer
-
-      &.auto
+      h2
+        margin: 0 0 5px
+        width: 100%
         max-width: 100%
-      
-      @media (min-width: 760px)
-        max-width: 33.159%
 
-        &:nth-child(3n + 1)
-          margin-left: 0
+      .local-unit
+        box-sizing: border-box
+        display: flex
+        flex-wrap: wrap
+        flex-direction: row
+        justify-content: center
+        align-items: center
+        align-content: center
+        background-color: $accent
 
-        &:nth-child(3n)
-          margin-right: 0
+        margin: 1px
+        padding: 10px 30px
+        border-radius: 5px
+        color: #ffffff
+        text-decoration: none
+        min-height: 50px
+        text-align: center
+        width: 100%
+        cursor: pointer
 
-      @media (max-width: 759px)
-        max-width: 49.682%
+        &.auto
+          max-width: 100%
+        
+        @media (min-width: 760px)
+          max-width: 33.014%
 
-        &:nth-child(2n + 1)
-          margin-left: 0
+          &:nth-child(3n + 2)
+            margin-left: 0
 
-        &:nth-child(2n)
-          margin-right: 0
+          &:nth-child(3n + 1)
+            margin-right: 0
 
-      transition: 100ms all ease-in-out
+        @media (max-width: 759px)
+          max-width: 49.682%
+          min-height: 56px
 
-      &:hover
-        color: darken($accent, 10%)
+          &:nth-child(2n + 2)
+            margin-left: 0
+
+          &:nth-child(2n + 1)
+            margin-right: 0
+
+        transition: 100ms all ease-in-out
+
+        &:hover
+          color: darken($accent, 10%)

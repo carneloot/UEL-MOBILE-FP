@@ -1,5 +1,39 @@
 {
-	"locais": {
+	"Centros": {
+		"cca": {
+			"lat": -23.3282916,
+			"lng": -51.2020031,
+			"titulo": "Centro de Ciencias Agrárias (CCA)",
+			"cursos": [
+				"Agronomia",
+				"Zootecnia",
+				"Medicina Veterinaria"
+			],
+			"descricao": "<p></p>",
+			"imagens": [
+				"cca_01.jpg"
+			]
+		},
+		"ccb": {
+			"lat": -23.3254072,
+			"lng": -51.1975691,
+			"titulo": "Centro de Ciencias Biológicas (CCB)",
+			"cursos": [
+				"Ciências Biologicas",
+				"Enfermagem",
+				"Psicologia",
+				"Farmácia",
+				"Medicina",
+				"Odontologia",
+				"Biomedicina"
+			],
+			"descricao": "<p></p>",
+			"imagens": [
+				"ccbbaixo_01.jpg",
+				"ccbcima_01.jpg",
+				"ccbpfm_01.jpg"
+			]
+		},
 		"cce": {
 			"lat": -23.326635,
 			"lng": -51.202393,
@@ -18,24 +52,6 @@
 				"cce_02.jpg",
 				"cce_03.jpg",
 				"ccefisica_01.jpg"
-			]
-		},
-		"cesa": {
-			"lat": -23.3266514,
-			"lng": -51.204679,
-			"titulo": "Centro de Estudos Sociais Aplicados (CESA)",
-			"cursos": [
-				"Administração",
-				"Serviço Social",
-				"Direito",
-				"Ciências Contábeis",
-				"Ciências Economicas",
-				"Secretariado Executivo"
-			],
-			"descricao": "<p></p>",
-			"imagens": [
-				"cesa_01.jpg",
-				"cesa_02.jpg"
 			]
 		},
 		"ceca": {
@@ -79,6 +95,24 @@
 				"cefequadra_01.jpg"
 			]
 		},
+		"cesa": {
+			"lat": -23.3266514,
+			"lng": -51.204679,
+			"titulo": "Centro de Estudos Sociais Aplicados (CESA)",
+			"cursos": [
+				"Administração",
+				"Serviço Social",
+				"Direito",
+				"Ciências Contábeis",
+				"Ciências Economicas",
+				"Secretariado Executivo"
+			],
+			"descricao": "<p></p>",
+			"imagens": [
+				"cesa_01.jpg",
+				"cesa_02.jpg"
+			]
+		},
 		"clch": {
 			"lat": -23.3250498,
 			"lng": -51.2044276,
@@ -97,40 +131,6 @@
 				"cch_05.jpg"
 			]
 		},
-		"cca": {
-			"lat": -23.3282916,
-			"lng": -51.2020031,
-			"titulo": "Centro de Ciencias Agrárias (CCA)",
-			"cursos": [
-				"Agronomia",
-				"Zootecnia",
-				"Medicina Veterinaria"
-			],
-			"descricao": "<p></p>",
-			"imagens": [
-				"cca_01.jpg"
-			]
-		},
-		"ccb": {
-			"lat": -23.3254072,
-			"lng": -51.1975691,
-			"titulo": "Centro de Ciencias Biológicas (CCB)",
-			"cursos": [
-				"Ciências Biologicas",
-				"Enfermagem",
-				"Psicologia",
-				"Farmácia",
-				"Medicina",
-				"Odontologia",
-				"Biomedicina"
-			],
-			"descricao": "<p></p>",
-			"imagens": [
-				"ccbbaixo_01.jpg",
-				"ccbcima_01.jpg",
-				"ccbpfm_01.jpg"
-			]
-		},
 		"ctu": {
 			"lat": -23.3266557,
 			"lng": -51.1983383,
@@ -145,46 +145,9 @@
 				"ctubaixo_01.jpg",
 				"ctucima_01.jpg"
 			]
-		},
-		"bancos": {
-			"lat": -23.3250916,
-			"lng": -51.1998782,
-			"titulo": "Bancos",
-			"descricao": "<p>Aqui ficam os bancos da UEL. No momento, os únicos disponíveis são Caixa e Itaú.</p>",
-			"imagens": [
-				"itau_01.jpg",
-				"caixa_01.jpg"
-			]
-		},
-		"hc": {
-			"lat": -23.3242257,
-			"lng": -51.1948409,
-			"titulo": "Hospital das Clinicas",
-			"descricao": "<p>O Ambulatório de Especialidades (AEHU) está vinculado ao Hospital Universitário (HU) e destina-se ao atendimento ambulatorial dos pacientes. Para isto, conta com equipes de  profissionais das áreas de Medicina, Enfermagem, Nutrição, Serviço Social, Psicologia, Farmácia e Bioquímica e Fisioterapia.</p>",
-			"imagens": [
-				"hc_01.jpg"
-			]
-		},
-		"ru": {
-			"lat": -23.3253507,
-			"lng": -51.2017474,
-			"titulo": "Restaurante Universitário",
-			"descricao": "<p>Todos os estudantes e funcionários da UEL podem se alimentar no RU, tanto no almoço quanto na janta. O cardápio muda todo dia e todo domingo o <a href='http://www.uel.br/ru/pages/cardapio.php' target='_blank'>site da UEL</a> é atualizado com o menu semanal.</p><h3 style='text-align: center;'>Atenção: O RU não será aberto ao público visitante da Feira de Profissões.</h3>",
-			"imagens": [
-				"ru_01.jpg",
-				"ru_02.jpg"
-			]
-		},
-		"pinguin-cesa": {
-			"lat": -23.3260144,
-			"lng": -51.2055865,
-			"titulo": "Restaurante e Lanchonete Pinguim",
-			"descricao": "<p>Dentro da Universidade, temos vários quiósques que vendem lanches e salgados para a comunidade universitária. Um desses locais é o Pinguim do CESA. É um ótimo local alternativo para o almoço ou para o cafézinho, onde você pode se reunir com os amigos e jogar conversa fora.</p>",
-			"imagens": [
-				"cecacantina_01.jpg",
-				"cecacantina_02.jpg"
-			]
-		},
+		}
+	},
+	"Alimentação": {
 		"cantina-ccb": {
 			"lat": -23.3264962,
 			"lng": -51.1960133,
@@ -203,6 +166,47 @@
 			"descricao": "<p>Além do RU e dos quiósques no calçadão, também é uma opção o Papo Cabeça. O Papo Cabeça é um restaurante, bar e café roastery movimentada em frente a UEL. Com fachada envidraçada em dois lados, com vista para o Campus.</p>",
 			"imagens": [
 				"papo_01.jpg"
+			]
+		},
+		"pinguin-cesa": {
+			"lat": -23.3260144,
+			"lng": -51.2055865,
+			"titulo": "Restaurante e Lanchonete Pinguim",
+			"descricao": "<p>Dentro da Universidade, temos vários quiósques que vendem lanches e salgados para a comunidade universitária. Um desses locais é o Pinguim do CESA. É um ótimo local alternativo para o almoço ou para o cafézinho, onde você pode se reunir com os amigos e jogar conversa fora.</p>",
+			"imagens": [
+				"cecacantina_01.jpg",
+				"cecacantina_02.jpg"
+			]
+		},
+		"ru": {
+			"lat": -23.3253507,
+			"lng": -51.2017474,
+			"titulo": "Restaurante Universitário",
+			"descricao": "<p>Todos os estudantes e funcionários da UEL podem se alimentar no RU, tanto no almoço quanto na janta. O cardápio muda todo dia e todo domingo o <a href='http://www.uel.br/ru/pages/cardapio.php' target='_blank'>site da UEL</a> é atualizado com o menu semanal.</p><h3 style='text-align: center;'>Atenção: O RU não será aberto ao público visitante da Feira de Profissões.</h3>",
+			"imagens": [
+				"ru_01.jpg",
+				"ru_02.jpg"
+			]
+		}
+	},
+	"Utilidades": {
+		"bancos": {
+			"lat": -23.3250916,
+			"lng": -51.1998782,
+			"titulo": "Bancos",
+			"descricao": "<p>Aqui ficam os bancos da UEL. No momento, os únicos disponíveis são Caixa e Itaú.</p>",
+			"imagens": [
+				"itau_01.jpg",
+				"caixa_01.jpg"
+			]
+		},
+		"hc": {
+			"lat": -23.3242257,
+			"lng": -51.1948409,
+			"titulo": "Hospital das Clinicas",
+			"descricao": "<p>O Ambulatório de Especialidades (AEHU) está vinculado ao Hospital Universitário (HU) e destina-se ao atendimento ambulatorial dos pacientes. Para isto, conta com equipes de  profissionais das áreas de Medicina, Enfermagem, Nutrição, Serviço Social, Psicologia, Farmácia e Bioquímica e Fisioterapia.</p>",
+			"imagens": [
+				"hc_01.jpg"
 			]
 		},
 		"pde": {

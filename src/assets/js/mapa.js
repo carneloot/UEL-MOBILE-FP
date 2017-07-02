@@ -13,7 +13,7 @@ function getUrlParams() {
 
 function initMap() {
   let uel = new google.maps.LatLng(-23.324607, -51.203205);
-  map = new GoogleMap(document.getElementById("map"), uel, 18);
+  map = new GoogleMap(document.getElementById("map"), uel, GoogleMap.DEFAULT_ZOOM);
 }
 
 function GoogleMap(element, center, zoom) {
@@ -83,15 +83,19 @@ GoogleMap.prototype.setRoute = function (from, to, travelMode) {
       window.alert("Directions request failed due to " + status);
   });
 }
+
 GoogleMap.prototype.setZoom = function (z) {
   this.map.setZoom(z)
 }
+
 Object.defineProperty(GoogleMap, "FOOT", {
   value: "WALKING"
 });
+
 Object.defineProperty(GoogleMap, "CAR", {
   value: "DRIVING"
 });
+
 Object.defineProperty(GoogleMap, "DEFAULT_ZOOM", {
   value: 18
 });
@@ -103,20 +107,36 @@ window.onload = function () {
 
     // Preenche o menu
     if (params.local != null) {
-      for (let local in json.locais) {
-        if (local != params.local) {
-          let link = "./../mapa/?local=" + params.local + "&dest=" + local;
-          wtgMenu.innerHTML += `<li class="wtg-link"><a href="${link}">${local.toUpperCase().replace(/-/g," ")}</a></li>`
+      let txtMenu = "";
+      for (let cat in json) {
+        txtMenu += `<li class="cat">${cat.replace(/-/g,' ')}:</li>`;
+        for (let local in json[cat]) {
+          if (local != params.local) {
+            let link = "./../mapa/?local=" + params.local + "&dest=" + local;
+            txtMenu += `<li class="wtg-link"><a href="${link}">${local.toUpperCase().replace(/-/g," ")}</a></li>`
+          }
         }
       }
+      wtgMenu.innerHTML = txtMenu;
     }
 
     // Se nao tiver local
     if (params.local == null)
       document.location.href = "./../";
     else {
-      let localInfo = json.locais[params.local];
-      local = new google.maps.LatLng(localInfo.lat, localInfo.lng);
+      let localInfo = null,
+        pageInfo;
+
+      for (let cat in json) {
+        for (let local in json[cat]) {
+          if (local == params.local) {
+            localInfo = json[cat][local];
+            break;
+          }
+        }
+        if (localInfo != null) break;
+      }
+      pageInfo = localInfo;
 
       let divTitulo = document.getElementById("titulo"),
         divDescricao = document.getElementById("descricao"),
@@ -125,8 +145,8 @@ window.onload = function () {
         btnSalas = document.querySelector(".btn-salas");
 
       if (params.dest == null || params.dest == params.local) {
-        map.addMarker(local, params.local.toUpperCase().replace(/-/g, ' '), localInfo.titulo);
-        map.setCenter(local);
+        map.addMarker(localInfo, params.local.toUpperCase().replace(/-/g, ' '), localInfo.titulo);
+        map.setCenter(localInfo);
 
         if (localInfo.salas == null)
           btnSalas.style.display = 'none';
@@ -149,36 +169,45 @@ window.onload = function () {
             } else {
               for (let i = map.marcadores.length - 1; i >= 0; i--)
                 map.removeMarker(i);
-              map.setCenter(local);
+              map.setCenter(localInfo);
               map.setZoom(GoogleMap.DEFAULT_ZOOM);
-              map.addMarker(local, params.local.toUpperCase().replace(/-/g, ' '), localInfo.titulo);
+              map.addMarker(localInfo, params.local.toUpperCase().replace(/-/g, ' '), localInfo.titulo);
             }
           });
         }
       } else {
-        localInfo = json.locais[params.dest];
-        let dest = new google.maps.LatLng(localInfo.lat, localInfo.lng);
+        destInfo = null;
+        for (let cat in json) {
+          for (let local in json[cat]) {
+            if (local == params.dest) {
+              destInfo = json[cat][local];
+              break;
+            }
+          }
+          if (destInfo != null) break;
+        }
+        pageInfo = destInfo;
         btnSalas.style.display = 'none';
 
-        map.setRoute(local, dest, GoogleMap.FOOT);
+        map.setRoute(localInfo, destInfo, GoogleMap.FOOT);
       }
 
       /* INICIO PREENCIMENTO DA PAGINA */
-      divTitulo.innerHTML = localInfo.titulo;
-      divDescricao.innerHTML = localInfo.descricao;
+      divTitulo.innerHTML = pageInfo.titulo;
+      divDescricao.innerHTML = pageInfo.descricao;
       let cursos = "";
-      if (localInfo.cursos != null) {
+      if (pageInfo.cursos != null) {
         cursos += "<h3>Cursos oferecidos:</h3>";
         cursos += "<ul>";
-        for (let curso in localInfo.cursos)
-          cursos += `<li>${localInfo.cursos[curso]}</li>`;
+        for (let curso in pageInfo.cursos)
+          cursos += `<li>${pageInfo.cursos[curso]}</li>`;
         cursos += "</ul>";
       }
       divCursos.innerHTML = cursos;
 
       divImagens.innerHTML = "";
-      for (let img in localInfo.imagens) {
-        let arq = localInfo.imagens[img];
+      for (let img in pageInfo.imagens) {
+        let arq = pageInfo.imagens[img];
         divImagens.innerHTML += `<img src="./../assets/images/${arq}" alt="${arq.split(/\./)[0]}">`
       }
       /* FIM PREENCIMENTO DA PAGINA */
