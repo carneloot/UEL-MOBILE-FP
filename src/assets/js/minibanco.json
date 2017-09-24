@@ -76,20 +76,15 @@
 				"cecamusica_02.jpg"
 			]
 		},
-		"cefe-e-ccs": {
+		"cefe": {
 			"lat": -23.3237317,
 			"lng": -51.2055087,
-			"titulo": "Centro de Educação Fisica e Esporte (CEFE) e Centro de Ciência da Saúde",
+			"titulo": "Centro de Educação Fisica e Esporte (CEFE)",
 			"cursos": [
 				"Educação Física",
-				"Esporte",
-				"Odontologia",
-				"Medicina",
-				"Enfermagem",
-				"Psicologa",
-				"Fisioterapia"
+				"Esporte"
 			],
-			"descricao": "<p>Na feira de profissões de 2017, os cursos do CCS (Centro de Ciencias da Saude) estarão localizados no CEFE.<h4>CEFE</h4><p>Com a criação da Universidade Estadual de Londrina em 1971, implantou-se o Curso de Graduação em Educação Física, vinculado ao Centro de Educação. Sua primeira turma iniciou as atividades letivas em fevereiro de 1972, quando foram começadas as obras do atual Centro. Em 1976, o governo concedeu o reconhecimento do Curso de Graduação em Educação Física e Técnica Desportiva. Em 1972 foi criado o Setor Desportivo que em junho de 1978 passou a denominar-se Núcleo Esportivo. Em 1980, foi criado o Curso de Pós-Graduação, em nível de Especialização em Ciência e Técnica do Treinamento Desportivo, aproveitando o potencial dos recursos treinados no país e no exterior.</p><p>O atendimento ao curso de graduação e pós-graduação em Educação Física, a oferta da Prática de Educação Física a todos os demais cursos de graduação da Universidade e o atendimento à comunidade motivou a criação do CENTRO DE EDUCAÇÃO FÍSICA e DESPORTOS em 10 de outubro de 1986. Em 1994 foi implantado o Campus Avançado na cidade de Colorado - PR, através do Consórcio Intermunicipal de Apoio Integrado à Extensão da Universidade Estadual de Londrina - CONSUEL, iniciando o oferecimento do Curso de Graduação em Educação Física. Em 1998 foi implantado o Curso de Bacharelado em Ciência do Esporte, iniciando suas atividades letivas em fevereiro de 1999.</p><h4>CCS</h4><p>O CCS ganhou um perfil acadêmico, mantendo os cinco cursos de graduação que os caracteriza até os dias atuais. As salas de aula e laboratórios utilizados no início, eram da antiga Faculdade de Odontologia (Rua Pernambuco) e a antiga Faculdade de Medicina Norte do Paraná (Centro de Ciências Biológicas - CCB), no Campus Universitário. Para os estágio práticos, foram utilizadas as instalações do Hospital Comunitário (Santa Casa - 1969/70). A partir de 1971 o CCS passou a contar com um Hospital Universitário, provisóriamente instalado nas dependências do antigo Hospital Evangélico. Em 1975 o Hospital Universitário, quando transferido para o antigo ex Sanatório de Tuberculose da Secretaria Estadual de Saúde, ganhou estrutura própria onde encontra-se hoje definitivamente implantado como orgão suplementar da UEL e como a maior estrutura pública de assistência médico hospitalar do Norte do Paraná, denominado Hospital Universitário Regional do Norte do Paraná (HURNP).</p><p>Ao mesmo tempo, gradualmente, foram sendo expandidas as instalações da Clínica Odontológica, até constituir-se na maior estrutura pública regional em termos de assistência odontológica, caracterizando-se, a partir de dezembro de 1993, como Centro Odontológico Universitário do Norte do Paraná (COUNP), também orgão suplementar da UEL.</p><p>Além das estruturas assistenciais que, demonstram por si só, os compromissos acadêmicos com a saúde da população loco-regional, o CCS implantou pioneramente os primeiros serviços de saúde descentralizados do Paraná, sendo: os Postos de Saúde da Vila da Fraternidade (1971), do Jardim do Sol (1972) e dos distritos rurais de Paiquerê (1972) e Guaravera (1978), juntamente com a unidade de Assistência Odontológica instalada na Escola Municipal Carlos Kraemer (1988).</p>",
+			"descricao": "<p>Com a criação da Universidade Estadual de Londrina em 1971, implantou-se o Curso de Graduação em Educação Física, vinculado ao Centro de Educação. Sua primeira turma iniciou as atividades letivas em fevereiro de 1972, quando foram começadas as obras do atual Centro. Em 1976, o governo concedeu o reconhecimento do Curso de Graduação em Educação Física e Técnica Desportiva. Em 1972 foi criado o Setor Desportivo que em junho de 1978 passou a denominar-se Núcleo Esportivo. Em 1980, foi criado o Curso de Pós-Graduação, em nível de Especialização em Ciência e Técnica do Treinamento Desportivo, aproveitando o potencial dos recursos treinados no país e no exterior.</p><p>O atendimento ao curso de graduação e pós-graduação em Educação Física, a oferta da Prática de Educação Física a todos os demais cursos de graduação da Universidade e o atendimento à comunidade motivou a criação do CENTRO DE EDUCAÇÃO FÍSICA e DESPORTOS em 10 de outubro de 1986. Em 1994 foi implantado o Campus Avançado na cidade de Colorado - PR, através do Consórcio Intermunicipal de Apoio Integrado à Extensão da Universidade Estadual de Londrina - CONSUEL, iniciando o oferecimento do Curso de Graduação em Educação Física. Em 1998 foi implantado o Curso de Bacharelado em Ciência do Esporte, iniciando suas atividades letivas em fevereiro de 1999.</p>",
 			"imagens": [
 				"cefe_01.jpg",
 				"cefequadra_01.jpg"
@@ -147,7 +142,66 @@
 			]
 		}
 	},
+	"Eventos": {
+		"anfiteatro-maior-cch": {
+			"lat": -23.3251823,
+			"lng": -51.2043815,
+			"titulo": "Anfiteatro CCH",
+			"descricao": "<p>Denominada \"Anfiteatro Maior do CCH\", devidamente equipada com aparelhos de som / TV / vídeo / retroprojetor, para 300 (trezentas) pessoas, localizada no Bloco A.</p>",
+			"imagens": [
+				"anfiteatro_cch_01.jpg"
+			]
+		},
+		"pde": {
+			"lat": -23.325569,
+			"lng": -51.2089804,
+			"titulo": "Programa de Desenvolvimento Educacional",
+			"descricao": "<p>O prédio de 1.305 metros quadrados de construção possui: 2 pavimentos e conta com 1 anfiteatro de 200 lugares, 1 plataforma elevatória, 4 salas de aula equipadas com sistema de som e recursos áudio visuais, 2 laboratórios de informática com 30 computadores cada, além de 1 sala de reunião e 2 salas de orientação.</p><p>O PDE é uma política pública de Estado regulamentado pela Lei Complementar nº 130, de 14 de julho de 2010 que estabelece o diálogo entre os professores do ensino superior e os da educação básica, através de atividades teórico-práticas orientadas, tendo como resultado a produção de conhecimento e mudanças qualitativas na prática escolar da escola pública paranaense. Iniciado em 2007, o PDE está em sua sexta edição.</p><p>São aproximadamente:</p><ul><li>7.200 professores egressos;</li><li>1.800 professores no segundo ano do Programa;</li><li>2.000 professores iniciando o primeiro ano do Programa;</li></ul><p>Totalizando 11.000 professores</p>",
+			"imagens": [
+				"pde_01.jpg",
+				"pde_02.jpg",
+				"pde_03.jpg",
+				"pde_04.jpg"
+			],
+			"salas": {
+				"zoom": 20,
+				"lat": -23.3257349,
+				"lng": -51.208942,
+				"1": {
+					"lat": -23.325731,
+					"lng": -51.208794,
+					"descricao": "Anfiteatro"
+				},
+				"2": {
+					"lat": -23.325717,
+					"lng": -51.208964,
+					"descricao": "Hall de Entrada"
+				},
+				"3": {
+					"lat": -23.325732,
+					"lng": -51.209159,
+					"descricao": "Escadaria p/ Segundo andar"
+				}
+			}
+		},
+		"pinicao": {
+			"lat": -23.3257199,
+			"lng": -51.19607,
+			"titulo": "Anfiteatro Cyro Grossi ( Pinicão - CCB)",
+			"descricao": "<p>Além do RU e dos quiósques no calçadão, também é uma opção o Papo Cabeça. O Papo Cabeça é um restaurante, bar e café roastery movimentada em frente a UEL. Com fachada envidraçada em dois lados, com vista para o Campus.</p>",
+			"imagens": [
+				"pinicao_01.jpg"
+			]
+		}
+	},
 	"Alimentação": {
+		"venda-ctu": {
+			"lat": -23.3262665,
+			"lng": -51.1997533,
+			"titulo": "Ponto de venda próximo ao CTU",
+			"descricao": "<p>Dentro da Universidade, temos vários quiósques que vendem lanches e salgados para a comunidade universitária. Um desses locais é o ponto de venda perto do CTU. É um ótimo local alternativo para o almoço ou para o cafézinho, onde você pode se reunir com os amigos e jogar conversa fora.</p>",
+			"imagens": []
+		},
 		"cantina-ccb": {
 			"lat": -23.3264962,
 			"lng": -51.1960133,
@@ -182,7 +236,7 @@
 			"lat": -23.3253507,
 			"lng": -51.2017474,
 			"titulo": "Restaurante Universitário",
-			"descricao": "<p>Todos os estudantes e funcionários da UEL podem se alimentar no RU, tanto no almoço quanto na janta. O cardápio muda todo dia e todo domingo o <a href='http://www.uel.br/ru/pages/cardapio.php' target='_blank'>site da UEL</a> é atualizado com o menu semanal.</p><h3 style='text-align: center;'>Atenção: O RU não será aberto ao público visitante da Feira de Profissões.</h3>",
+			"descricao": "<p>Todos os estudantes e funcionários da UEL podem se alimentar no RU, tanto no almoço quanto na janta. O cardápio muda todo dia e todo domingo o <a href='http://www.uel.br/ru/pages/cardapio.php' target='_blank'>site da UEL</a> é atualizado com o menu semanal.</p>",
 			"imagens": [
 				"ru_01.jpg",
 				"ru_02.jpg"
@@ -190,6 +244,25 @@
 		}
 	},
 	"Utilidades": {
+		"aintec": {
+			"lat": -23.3235958,
+			"lng": -51.2077105,
+			"titulo": "Agência de Inovação Tecnologica",
+			"descricao": "<p>Agência de Inovação Tecnológica da Universidade Estadual de Londrina (AINTEC) foi criada em 17 de abril de 2008 a partir da resolução do Conselho Universitário nº 065/2008, em atendimento à Lei de Inovação (Lei nº 10.973/2004).</p><p>Em 2008, a AINTEC incorporou a Incubadora Internacional de Empresas de Base Tecnológica da UEL (INTUEL) criada em 2000; o Escritório de Propriedade Intelectual (EPI), criado em 2003; e o Escritório de Transferência de Tecnologia (ETT), criada também em 2003 pela Pró-reitoria de Pesquisa e Pró-graduação (PROPPG).</p><p>A AINTEC tem como objetivo gerir a política de inovação tecnológica da UEL, identificando, protegendo e transferindo as criações geradas na universidade para a sociedade e o mercado, além de atender suas demandas tecnológicas.</p><p>Atualmente, as quatro unidades da AINTEC, a Incubadora Internacional de Empresas de Base Tecnológica (INTUEL), o Escritório de Propriedade Intelectual (EPI), o Escritório de Transferência de Tecnologia (ETT) e o Escritório de Design (EDN) desenvolvem, em conjunto com a UEL e com seus parceiros, ações para transferir para a sociedade conhecimentos e tecnologia que resultem em inovações, ao mesmo tempo em que procura atender suas demandas sociais e de mercado.</p>",
+			"imagens": [
+				"aintec_01.jpg"
+			]
+		},
+		"bc": {
+			"lat": -23.3262484,
+			"lng": -51.2004361,
+			"titulo": "Biblioteca Central",
+			"descricao": "<p>1972 - Criação da Biblioteca Central à Resolução 123/72</p><p>1981 - Em decorrência de uma nova estrutura organizacional, foram unificadas as bibliotecas setoriais localizadas no campus universitário.</p><p>O Sistema de Bibliotecas da UEL (SB/UEL) é coordenado pela Biblioteca Central (BC), que é órgão de Apoio da UEL, vinculado administrativamente à Reitoria, por delegação ao Vice-Reitor. É composto por cinco unidades: Biblioteca Central (BC), Biblioteca Setorial do Centro de Ciências da Saúde (BS/CCS), Biblioteca Setorial da Clínica Odontológica Universitária (BS/COU), Biblioteca Setorial do Escritório de Aplicação de Assuntos Jurídicos (BS/EAAJ) e Biblioteca Setorial de Ciências Humanas (BS/CH).</p><p>A missão do Sistema de Bibliotecas é:</p><p>\"Promover o acesso, a recuperação e a transferência da informação para toda a comunidade universitária, de forma atualizada, ágil e qualificada, visando contribuir para a formação profissional do cidadão, colaborando, dessa forma, no desenvolvimento científico, tecnológico e cultural da sociedade como um todo\".</p>",
+			"imagens": [
+				"bc_01.jpg",
+				"bc_02.jpg"
+			]
+		},
 		"bancos": {
 			"lat": -23.3250916,
 			"lng": -51.1998782,
@@ -200,6 +273,79 @@
 				"caixa_01.jpg"
 			]
 		},
+		"biblioteca-setorial-cch": {
+			"lat": -23.3260088,
+			"lng": -51.2063647,
+			"titulo": "Biblioteca Setorial do CCH",
+			"descricao": "<p>1972 - Criação da Biblioteca Central à Resolução 123/72</p><p>1981 - Em decorrência de uma nova estrutura organizacional, foram unificadas as bibliotecas setoriais localizadas no campus universitário.</p><p>O Sistema de Bibliotecas da UEL (SB/UEL) é coordenado pela Biblioteca Central (BC), que é órgão de Apoio da UEL, vinculado administrativamente à Reitoria, por delegação ao Vice-Reitor. É composto por cinco unidades: Biblioteca Central (BC), Biblioteca Setorial do Centro de Ciências da Saúde (BS/CCS), Biblioteca Setorial da Clínica Odontológica Universitária (BS/COU), Biblioteca Setorial do Escritório de Aplicação de Assuntos Jurídicos (BS/EAAJ) e Biblioteca Setorial de Ciências Humanas (BS/CH).</p><p>A missão do Sistema de Bibliotecas é:</p><p>\"Promover o acesso, a recuperação e a transferência da informação para toda a comunidade universitária, de forma atualizada, ágil e qualificada, visando contribuir para a formação profissional do cidadão, colaborando, dessa forma, no desenvolvimento científico, tecnológico e cultural da sociedade como um todo\".</p>",
+			"imagens": [
+				"bs_01.jpg",
+				"bs_02.jpg"
+			]
+		},
+		"cepv": {
+			"lat": -23.329346,
+			"lng": -51.194513,
+			"titulo": "Curso Especial Pré-Vestibular",
+			"descricao": "<p></p>",
+			"imagens": []
+		},
+		"cops": {
+			"lat": -23.32781,
+			"lng": -51.195269,
+			"titulo": "Coordenadoria de Processo Seletivo",
+			"descricao": "<p>O COPS é a Coordenadoria que cuida de todo tipo de processo seletivo dentro da universidade, como o vestibular.</p>",
+			"imagens": [
+				"hc_01.jpg"
+			]
+		},
+		"capela": {
+			"lat": -23.3260341,
+			"lng": -51.2035615,
+			"titulo": "Capela",
+			"descricao": "<p>A Capela Ecumênica da UEL é uma réplica da primeira capela erguida em Londrina, em 1934, onde hoje está a Catedral da cidade. A Capela da UEL, além de ser um resgate histórico e arquitetônico, tem a importância de ser um espaço para a meditação e recolhimento espiritual.</p>",
+			"imagens": [
+				"capela_01.jpg",
+				"capela_02.jpg"
+			]
+		},
+		"clinica-psicologica": {
+			"lat": -23.324986,
+			"lng": -51.1957852,
+			"titulo": "Clínica Psicológica",
+			"descricao": "<p>A Clínica Psicológica da Universidade Estadual de Londrina - UEL configura-se como um serviço-escola de Psicologia ligado ao curso de graduação em Psicologia da referida universidade. Tal serviço congrega ações dos departamentos Psicologia Geral e Análise do Comportamento (PGAC), Psicologia e Psicanálise (PPSIC) e Psicologia Social e Institucional (PSI), por meio de atividades ofertadas em estágios curriculares, projetos de ensino, pesquisa e extensão.</p><p>População-alvo: comunidade interna e externa à UEL, em suas diferentes faixas etárias (crianças, adolescentes, adultos e idosos), beneficiários do Sistema Único de Saúde.</p><p>Serviços oferecidos: psicoterapia individual de crianças, adolescentes, adultos e idosos. Demais atividades, tais como avaliação psicológica, psicoterapia de grupo, casal e família, dentre outros são oferecidos por meio de projetos de ensino, pesquisa e extensão, conforme interesse e disponibilidade de docentes e pesquisadores da Universidade Estadual de Londrina.</p>",
+			"imagens": [
+				"clinicapsi_01.jpg",
+				"clinicapsi_02.jpg",
+				"clinicapsi_03.jpg"
+			]
+		},
+		"dce": {
+			"lat": -23.3276288,
+			"lng": -51.2011696,
+			"titulo": "Diretório Central dos Estudantes",
+			"descricao": "<p>Diretório Central dos Estudantes (DCE), é a entidade de máxima representatividade dos estudantes da Universidade Estadual de Londrina. O DCE é uma entidade independente, apartidária, livre de preconceitos religiosos, políticos e de cor, é formada por todos os alunos regularmente matriculados na UEL e pelos Centros Acadêmicos de seus cursos. Sua função principal é representar os alunos da UEL e velar pelos seus interesses, construindo uma universidade verdadeiramente gratuita e de qualidade.</p>",
+			"imagens": [
+				"dce_01.jpg",
+				"dce_02.jpg"
+			]
+		},
+		"dcv-dmvp": {
+			"lat": -23.3286061,
+			"lng": -51.2002543,
+			"titulo": "Departamento de Clínica Veterinárias e Departamento de Medicina Veterinária Preventiva",
+			"descricao": "<p>O curso de Medicina Veterinária da UEL está envolvido em projetos na área social que visam apoiar, entre outros, o pequeno produtor rural de nossa região. Ao mesmo tempo em que seus professores proferem palestras em eventos regionais, nacionais e internacionais, tamb�m est�o intensamente envolvidos com processos de atualização, transferência de tecnologia e educação continuada a técnicos de campo e produtores rurais. Este trabalho atende principalmente cooperativas e associações de produtores. São desenvolvidos programas de extensão à comunidade educando-se propriet�rios de animais de estimação quanto a cuidados com cães e gatos, prevenção de doenças transmissíveis e posse responsável de animais de companhia.</p><p>O Hospital Veterinário (HV), criado em 09 de setembro de 1976, com atendimento de Pronto-Socorro 24 horas, atende à comunidade ininterruptamente durante todo o ano. Este serviço médico, cirúrgico e de diagnóstico laboratorial atende a grandes e pequenos animais. A área de abrangência das atividades de prestação de serviços do HV há muito não mais se restringe à região norte e mesmo ao Estado do Paraná. Somente em 2000 foram realizados 67.371 procedimentos com casos provenientes de 11 Estados da Federação.</p>",
+			"imagens": [
+				"vet_01.jpg"
+			]
+		},
+		"eduel": {
+			"lat": -23.329488,
+			"lng": -51.194803,
+			"titulo": "Editora da Universidade Estadual de Londrina",
+			"descricao": "<p>A EDUEL, Editora da Universidade Estadual de Londrina, foi criada em 1995. Além de publicar os livros, à Editora cabe também o papel de distribuí-los. Para a realização dessa tarefa, a EDUEL trabalha, em parceria, com livrarias e distribuidores de diversas regiões do país, tais como Livraria Cultura, Loyola Distribuidora, Asteca Distribuidora, Book Partners, Suzane Bach, Leitura Dinâmica, Books Online dentre outros. A EDUEL conta ainda com uma livraria, que disponibiliza e comercializa seus livros, bem como os livros de outras editoras universitárias e comerciais.</p>",
+			"imagens": []
+		},
 		"hc": {
 			"lat": -23.3242257,
 			"lng": -51.1948409,
@@ -209,42 +355,63 @@
 				"hc_01.jpg"
 			]
 		},
-		"pde": {
-			"lat": -23.3256169,
-			"lng": -51.2090081,
-			"titulo": "Programa de Desenvolvimento Estudantil (PDE)",
-			"descricao": "<p>Além do RU e dos quiósques no calçadão, também é uma opção o Papo Cabeça. O Papo Cabeça é um restaurante, bar e café roastery movimentada em frente a UEL. Com fachada envidraçada em dois lados, com vista para o Campus.</p>",
+		"livraria-eduel": {
+			"lat": -23.3260142,
+			"lng": -51.2005482,
+			"titulo": "Livraria Eduel",
+			"descricao": "<p>A EDUEL, Editora da Universidade Estadual de Londrina, foi criada em 1995. Além de publicar os livros, à Editora cabe também o papel de distribuí-los. Para a realização dessa tarefa, a EDUEL trabalha, em parceria, com livrarias e distribuidores de diversas regiões do país, tais como Livraria Cultura, Loyola Distribuidora, Asteca Distribuidora, Book Partners, Suzane Bach, Leitura Dinâmica, Books Online dentre outros. A EDUEL conta ainda com uma livraria, que disponibiliza e comercializa seus livros, bem como os livros de outras editoras universitárias e comerciais.</p><p>Como política de distribuição e de comercialização de seus livros, a EDUEL participa tamb�m de feiras e de eventos de relevância nacional, como Encontros da SBPC, ANPUH, ANPED, ANPOLL, ANPOCS, Bienais do Livro de São Paulo e do Rio de Janeiro, Feira do Livro da UFPR, Feira do Livro da USP entre outros. Esta participação ocorre de forma direta ou por meio da Associação Brasileira de Editoras Universitárias (ABEU), à qual a EDUEL está filiada. Além disso, recentemente, a EDUEL firmou acordo com a SciELO Livros para indexação, publicação, distribuição e comercialização de livros on-line.</p><p>A Eduel também mantém seu próprio sítio eletrônico no qual atualiza as informações do seu catálogo e sobre seus lançamentos. Outro canal de divulgação são as revistas especializadas, indicadas pelo próprio autor, os jornais e os espaços culturais no rádio e na televisão.</p>",
 			"imagens": [
-				"papo_01.jpg"
-			],
-			"salas": {
-				"zoom": 20,
-				"center": {
-					"lat": -23.3257349,
-					"lng": -51.208942
-				},
-				"1": {
-					"pos": {
-						"lat": -23.325728,
-						"lng": -51.208805
-					},
-					"info": "Salão Principal"
-				},
-				"2": {
-					"pos": {
-						"lat": -23.325721,
-						"lng": -51.208978
-					},
-					"info": "Hall de Entrada"
-				},
-				"3": {
-					"pos": {
-						"lat": -23.325716,
-						"lng": -51.209147
-					},
-					"info": "Anfiteatro"
-				}
-			}
+				"eduel_01.jpg"
+			]
+		},
+		"memorial-america-latina": {
+			"lat": -23.3263613,
+			"lng": -51.1973161,
+			"titulo": "Memorial América Latina",
+			"descricao": "<p></p>",
+			"imagens": []
+		},
+		"prorh": {
+			"lat": -23.3271004,
+			"lng": -51.1944189,
+			"titulo": "Pró-reitoria de Recursos Humanos",
+			"descricao": "<p>A PRORH é um órgão vinculado à Reitoria que tem por finalidade atuar nas políticas de gestão de pessoas, pela interação sistêmica e estratégica dos agentes públicos vinculados à UEL, para atender demandas institucionais, em consonência com as diretrizes governamentais.</p>",
+			"imagens": [
+				"rh_01.jpg"
+			]
+		},
+		"prograd": {
+			"lat": -23.3276422,
+			"lng": -51.1953293,
+			"titulo": "Pró-reitoria de graduação",
+			"descricao": "<p></p>",
+			"imagens": [
+				"prograd_01.jpg",
+				"prograd_02.jpg"
+			]
+		},
+		"ramo": {
+			"lat": -23.3281432,
+			"lng": -51.2025911,
+			"titulo": "Ramo Estudantil - IEEE",
+			"descricao": "<p> O Ramo Estudantil IEEE-UEL é uma entidade colaborativa acadêmica, atualmente com voluntários dos cursos de Ciência da Computação, Engenharia Civil e Engenharia Elétrica. O Ramo desenvolve projetos científicos nas áreas de Robótica, IoT, Computação, Processamento de Sinais, e eletrônica. Como também organiza cursos e eventos nas áreas de tecnologia e gestão. O Ramo UEL conta também com o WIE (Women in Engineering) e um capítulo do RAS (Robotics and Automation Society), um do CS (Computer Society) e um do PES (Power and Energy Society).</p>",
+			"imagens": [
+				"ramo_01.jpg",
+				"ramo_02.jpg",
+				"ramo_03.jpg",
+				"ramo_04.jpg",
+				"ramo_05.jpg"
+			]
+		},
+		"sebec": {
+			"lat": -23.325795,
+			"lng": -51.2005934,
+			"titulo": "SEBEC - Serviço de Bem Estar à Comunidade",
+			"descricao": "<p>As ações desenvolvidas pelo SEBEC - Serviço de Bem Estar à Comunidade são multiprofissionais sustentadas por uma política de trabalho onde as diretrizes básicas estão direcionadas à qualidade, a agilização e a humanização que no conjunto expressam em atendimento global para a melhoria da qualidade de vida das pessoas./p>",
+			"imagens": [
+				"sebec_01.jpg",
+				"sebec_02.jpg"
+			]
 		}
 	}
 }

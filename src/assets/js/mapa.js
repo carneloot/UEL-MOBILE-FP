@@ -161,11 +161,11 @@ window.onload = function () {
             ativo = !ativo;
             if (ativo) {
               map.removeMarker(0);
-              map.setCenter(localInfo.salas.center);
+              map.setCenter(localInfo.salas);
               map.setZoom(localInfo.salas.zoom);
               for (sala in localInfo.salas)
                 if (/^\d+$/.test(sala))
-                  map.addMarker(localInfo.salas[sala].pos, localInfo.salas[sala].info, localInfo.salas[sala].info);
+                  map.addMarker(localInfo.salas[sala], localInfo.salas[sala].descricao, localInfo.salas[sala].descricao);
             } else {
               for (let i = map.marcadores.length - 1; i >= 0; i--)
                 map.removeMarker(i);
@@ -189,7 +189,12 @@ window.onload = function () {
         pageInfo = destInfo;
         btnSalas.style.display = 'none';
 
-        map.setRoute(localInfo, destInfo, GoogleMap.FOOT);
+        if (localInfo.travelMode)
+          map.setRoute(localInfo, destInfo, localInfo.travelMode);
+        else if (destInfo.travelMode)
+          map.setRoute(localInfo, destInfo, destInfo.travelMode);
+        else
+          map.setRoute(localInfo, destInfo, GoogleMap.FOOT);
       }
 
       /* INICIO PREENCIMENTO DA PAGINA */
@@ -205,10 +210,15 @@ window.onload = function () {
       }
       divCursos.innerHTML = cursos;
 
-      divImagens.innerHTML = "";
-      for (let img in pageInfo.imagens) {
-        let arq = pageInfo.imagens[img];
-        divImagens.innerHTML += `<img src="./../assets/images/${arq}" alt="${arq.split(/\./)[0]}">`
+      if (pageInfo.imagens.length == 0) {
+        document.querySelector('.tit-imagens').style.display = "none";
+        divImagens.style.marginBottom = "20px";
+      } else {
+        divImagens.innerHTML = "";
+        for (let img in pageInfo.imagens) {
+          let arq = pageInfo.imagens[img];
+          divImagens.innerHTML += `<img src="./../assets/images/${arq}" alt="${arq.split(/\./)[0]}">`
+        }
       }
       /* FIM PREENCIMENTO DA PAGINA */
     }

@@ -7,11 +7,14 @@ html(lang="pt-BR")#index
     link(rel="stylesheet" href="./assets/css/main.css?v=#{VERSION_REPLACE}#")
     title Feira de Profissões - IEEE-UEL
 
-    link(rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png")
-    link(rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png")
-    link(rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png")
-    link(rel="manifest" href="./manifest.json")
-    link(rel="mask-icon" href="./safari-pinned-tab.svg" color="#006699")
+    link(rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png?v=#{VERSION_REPLACE}#")
+    link(rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png?v=#{VERSION_REPLACE}#")
+    link(rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png?v=#{VERSION_REPLACE}#")
+    link(rel="manifest" href="./manifest.json?v=#{VERSION_REPLACE}#")
+    link(rel="mask-icon" href="./safari-pinned-tab.svg?v=#{VERSION_REPLACE}#" color="#006699")
+    link(rel="shortcut icon" href="./favicon.ico?v=#{VERSION_REPLACE}#")
+    meta(name="apple-mobile-web-app-title" content="Guia IEEE")
+    meta(name="application-name" content="Guia IEEE")
     meta(name="theme-color" content="#006699")
 
   body
@@ -27,4 +30,4 @@ html(lang="pt-BR")#index
 
     script(src="./assets/js/jquery-3.2.1.min.js?v=#{VERSION_REPLACE}#")
     script(src="./assets/js/index.js?v=#{VERSION_REPLACE}#")
-    //- include _includes/_analytics.html
+    include _includes/_analytics.html
